@@ -1,0 +1,148 @@
+body {
+    background-color: gainsboro;
+
+}
+
+
+h1 {
+    ;
+    color: yellow;
+}
+
+h2 {
+    ;
+    color: aqua;
+}
+
+header {
+    background-color: black;
+    text-align: center;
+
+}
+
+footer {
+    color: yellow;
+
+}
+
+main article {
+    background-color: brown;
+    color: black;
+    text-align: center;
+    background-image: url(/images/fade.png);
+}
+
+section h2 {
+    color: black;
+    text-align: center;
+}
+
+ol {
+    text-align: center;
+}
+
+section blockquote {
+    font-style: italic;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+table {
+    width: 60%;
+    margin: 5% auto;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    border-left: solid black 1px;
+    border-right: solid black 1px;
+    padding: 0.6em;
+}
+
+thead {
+    background-color: yellow;
+    color: black;
+    text-align: center;
+}
+
+tbody td {
+    text-align: center;
+}
+
+
+tbody tr:nth-of-type(even) {
+    background-color: yellow;
+}
+
+tbody tr:nth-of-type(odd) {
+    background-color: red;
+}
+
+tbody tr:hover {
+    background-color: skyblue;
+}
+
+nav {
+    background-color: darkgrey;
+}
+
+nav ul {
+    padding: 0.7em;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10.5%;
+}
+
+nav ul li a:link {
+    color: black;
+}
+
+nav ul li a:visited {
+    color: red;
+}
+
+nav ul li a:hover {
+    color: deeppink;
+    background-color: skyblue;
+
+}
+
+nav ul li a:active {
+    color: orange;
+    background-color: black;
+}
+
+figure {
+    text-align: center;
+
+}
+
+figcaption {
+    font-weight: bold;
+    color: navy;
+
+}
+
+img.border {
+    border: 10px solid black
+}
+
+aside section ul {
+    float: right;
+
+}
+
+aside section {
+    float: right;
+}
+
+.image {
+    position: fixed;
+    top: 200px;
+    left: 200px;
+    border: 1px solid black;
+}
